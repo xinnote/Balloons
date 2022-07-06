@@ -8,6 +8,7 @@ import static BallonsPackage.Balloon.*;
 public class Main {
     public static void main(String[] args) {
         Balloon balloon0 = new Balloon();
+        System.out.println(balloon0);
         Balloon balloon1 = new Balloon("Red balloon", 30.0f, 0.25f);
         Balloon balloon2 = new Balloon(balloon1);
         System.out.println(balloon2);
